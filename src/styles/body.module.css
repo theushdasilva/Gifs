@@ -1,0 +1,181 @@
+/*Titulo do desafio*/
+.titulo{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 20px 0px 30px 0px;
+
+    font-size: 3rem;
+}
+/*Titulo do desafio*/
+
+/*Corpo do desafio*/
+.body{
+    position: relative;
+
+    max-width: 2400px;
+    width: 99%;
+
+    margin-left: 50%;
+    left: -49.5%;
+
+    background: linear-gradient(to left, var(--color1), var(--color2));
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px #00000050;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 10px;
+}
+/*Corpo do desafio*/
+
+/*Cards dentro do corpo do desafio*/
+.box{
+    position: relative;
+    width: 300px;
+
+    padding: 5px;
+
+    background: #fff;
+
+    margin: 5px;
+
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box > img{
+    width: 100%;
+    height: 300px;
+    
+    object-fit: cover;
+
+    border-radius: 5px;
+}
+/*Cards dentro do corpo do desafio*/
+
+/*Apresentando informações da GIF*/
+.dados{
+    position: absolute;
+
+    width: 96.7%;
+
+    left: 0;
+    bottom: 0;
+
+    margin: 5px;
+
+    background-color: rgb(0, 0, 0, .9);
+    
+    color: #fff;
+
+    border-radius: 0px 0px 5px 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 0px;
+}
+.dados > p{
+    margin-left: 10px;
+}
+.dados .btn{
+    width: 150px;
+    margin: 10px;
+
+    padding: 10px 5px;
+
+    border-radius: 20px;
+    border: none;
+
+    background: linear-gradient(to left, var(--color1), var(--color2));
+
+    color: #fff;
+
+    font-weight: 900;
+}
+/*Apresentando informações da GIF*/
+
+/*Formulario para pesquisa de gifs*/
+.form{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.form .box{
+    background: #fff;
+    
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.form .box input[type="text"]{
+    border: none;
+
+    outline: none;
+
+    margin-left: 10px;
+}
+.form .box input[type="submit"]{
+    padding: 5px 10px;
+
+    border-radius: 20px;
+    border: none;
+
+    background: var(--color2);
+    color: #fff;
+
+    font-weight: 900;
+
+    cursor: pointer;
+}
+/*Formulario para pesquisa de gifs*/
+
+/*tela de loader*/
+.loader{
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*tela de loader*/
+
+/*btn salva Gifs*/
+.salvaGifs{
+    position: absolute;
+
+    right: 20px;
+    top: 40px;
+
+    padding: 10px 15px;
+
+    border-radius: 20px;
+    border: none;
+    
+    box-shadow: 0 0 10px rgb(0, 0, 0, .5);
+
+    background: var(--color2);
+    color: #fff;
+
+    font-weight: 900;
+
+    cursor: pointer;
+}
+/*btn salva Gifs*/
